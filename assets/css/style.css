@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+body {
+    background: rgb(139, 120, 120);
+    color: #fff;
+    width: 80vw;
+    margin: 2% 5% ;
+    font-family: 'Source Code Pro', monospace; ;
+}
+
+h1, p {
+    margin: 2% 0;
+}
+
+header {
+    margin: 5% 5% 3% 5%; ;
+}
+
+/* main */
+main section {
+    width: 90%;
+    margin: 1% 5%;
+    background: #3f3f31d0;
+    padding: .5% 6%;
+} 
+
+main section:not(:nth-last-of-type(1)) p:nth-of-type(1) {
+    font-size: 1.3rem;
+    color:rgb(160, 145, 145)
+    
+}
+
+main section:not(:nth-last-of-type(1)) p:nth-of-type(2) {
+    color: rgb(214, 149, 149);
+    font-style: italic;
+    
+}
+
+main a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.52rem;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 35%;
+    opacity: 0.5;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+a:hover {
+    display: none;
+}
+
+a:hover + img {
+    display: inline-block;
+    z-index: 99;
+}
+
+article{
+    position: relative;
+    margin: 0 0 4% 0;
+}
+
+div {
+    color:rgb(34, 29, 29);
+    position: absolute;
+    top: -54%;
+    right: -30%;
+    width: 70%;
+}
+
+main section:nth-last-of-type(2) {
+    background: rgb(58, 28, 28);
+}
+
+main section:nth-last-of-type(2) div a {
+    color: rgb(221, 179, 179);
+    border-color: rgb(221, 179, 179);
+    top: -390%;
+    right: 62%;
+    
+}
+
+main section:nth-last-of-type(2) div a:hover {
+    display: inline-block;
+}
+
+
+main img {
+    width: 40vw;
+    margin: 0 0%;
+    display: none;
+    z-index: 2;
+    position: absolute;
+}
+
+main section:last-of-type {
+    background: rgb(119, 71, 30);
+    margin: 2% 0 0 5% ;
+}
+
+main section:last-of-type h1 {
+    font-size: 2.5rem;
+}
+
+
+/* footer */
+
+nav {
+    list-style: none;
+    width: 89%;
+    margin: 5% auto;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer img {
+    width: 15px;
+
+}
