@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scenario</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <main>
+        <p>
+        <p><span>GitSuperUser</span> erstellt neues Repo als Master. Dann lädt
+            er
+            <span>GitCoWorker</span> zur Zusammenarbeit ein: in <span>gitHub > Repository -> Settings -> Manage
+                Access</span>,
+            (Passworteingabe?), sucht nach <span>GitCoworker</span>. Dieser bekommt einen Link per E-Mail, den
+            er bestätigt. (Ohne Branching:
+            GitCoworker geht in gitHub zum entsprechenden <span>Repository > Code > Clone</span> erstellt im Mac
+            Terminal oder
+            Finder einen neuen Ordner, öffnet diesen in <span>VS Code</span>.)
+            <br><br>
+            <span>GitSuperUser</span> und <span>GitCoWorker</span> arbeiten in verschiedenen Branches parallel.
+            <span>GitCoWorker</span> in gitHub: erstellt Clone im Repo über <span>Code > Clone</span>, öffnet
+            Terminal in </span>VS Code</span>: git clone <RepoName></span> (kopiert Repo-Name)
+                wechselt in Work-Verzeichnis im Terminal: <span>cd Verzeichnisname</span>, ist damit im Terminal
+                im Projekt und
+                kann damit arbeiten.
+                <span>GitCoWorker</span> erstellt neuen Branch über <span>git checkout -b
+                    nameseinesbranches</span>. Jetzt kann
+                <span>GitCoWorker</span> den Branch bearbeiten und mit <span>
+                    git add .
+                    git commit -m "Kommentar"> git push</span> ins Repo pushen. Bei </span>git push</span>
+                bekommt er im Terminal eine Meldung, was genau eingegeben werden muss. Er
+                kopiert diesen Befehl und führt Push aus.
+                <br><br>
+                Der Branch ist noch nicht in main integriert
+                <span>GitSuperUser</span> kann die neuen Edits prüfen über </span>compare and pull
+                request</span>
+                <span>GitSuperUser</span> zeigt die Branches im Repo an über
+                <span>New Pull Request</span>
+        </p>
+
+        </p>
+    </main>
+
+</body>
+
+</html>

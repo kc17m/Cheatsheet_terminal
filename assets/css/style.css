@@ -19,10 +19,39 @@ h1, p {
 }
 
 header {
-    margin: 5% 5% 3% 5%; ;
+    margin: 5% 5% 3% 5%; 
+    
+}
+
+header nav {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 5% 0;
+    border-bottom: 2px solid #fff;
+    font-size: 1rem;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: rgb(58, 52, 52);
+    display: inline-block;
 }
 
 /* main */
+span {
+    font-weight: bold;
+    color: rgb(129, 54, 41);
+}
+
+
 div.cheat-link a:hover, div.cheat-link a:active {
     display: inline-block;
 }
@@ -119,6 +148,26 @@ main section:last-of-type {
 
 main section:last-of-type h1 {
     font-size: 2.5rem;
+}
+
+main section:last-of-type p {
+    margin-bottom: 5%;
+}
+
+main a.szenario {
+    display: inline;
+    border: none;
+    text-decoration: underline;
+    width: 100%;
+   
+}
+
+main a.szenario:hover {
+   text-decoration: underline;   
+}
+
+main h1.szenario {
+    text-decoration: underline;
 }
 
 

@@ -13,6 +13,11 @@
 
     <body>
         <header>
+            <nav>
+                <li><a href="../../index.html">Home</a></3li>
+                <li><a href="../html/sheet_terminal.html">Terminal CheatSheet</a></li>
+                <li><a href=""></a></li>
+            </nav>
             <section>
                 <h1>CheatSheet Git Commands</h1>
                 <p>Git is a free and open source distributed version control system designed to handle everything from
@@ -30,10 +35,10 @@
                 <article>
                     <p>print working directory</p>
                     <p>Initialize existing directory as Git repository</p>
-                    <div>
+                    <!-- <div>
                         <a href="#">So sieht's aus</a>
                         <img src="../img/git init.png" alt="init">
-                    </div>
+                    </div> -->
                 </article>
             </section>
             <section>
@@ -41,182 +46,97 @@
                 <article>
                     <p>add a file for next commit</p>
                     <p>oder auch git add [file]</p>
-                    <div>
+                    <!-- <div>
                         <a href="#">So sieht's aus</a>
-                        <img src="assets/img/ls.png" alt="ls">
-                    </div>
+                        <img src="../img/git_add.png" alt="add">
+                    </div> -->
                 </article>
             </section>
             <section>
-                <h1>ls -1</h1>
+                <h1>git commit -m "freetext_comment"</h1>
                 <article>
-                    <p>List - in einer Spalte</p>
-                    <p>Listenverzeichnis in einer Spalte anzeigen</p>
-                    <div>
+                    <p>commit your staged content as a new commit snapshot</p>
+                    <p>Änderungen in neues Commit verschieben</p>
+                    <!-- <div>
                         <a href="#">So sieht's aus</a>
-                        <img src="assets/img/ls -1.png" alt="ls -1">
-                    </div>
+                        <img src="../img/git _commit.png" alt="commit">
+                    </div> -->
                 </article>
             </section>
+
+
             <section>
-                <h1>ls -a</h1>
+                <h1 class="szenario"><a class="szenario" href="../html/scenario.html"></a>Co-Working in Git - Link zu
+                    Beispielzenario</a></h1>
+
+                <!-- <p><span>GitSuperUser</span> erstellt Simon erstellt neues Repo als Master. Dann lädt
+                    er
+                    <span>GitCoWorker</span> zur Zusammenarbeit ein: in <span>gitHub > Repository -> Settings -> Manage
+                        Access</span>,
+                    (Passworteingabe?), sucht nach <span>GitCoworker</span>. Dieser bekommt einen Link per E-Mail, den
+                    er bestätigt. (Ohne Branching:
+                    GitCoworker geht in gitHub zum entsprechenden <span>Repository > Code > Clone</span> erstellt im Mac
+                    Terminal oder
+                    Finder einen neuen Ordner, öffnet diesen in <span>VS Code</span>.)
+                    <br><br>
+                    <span>GitSuperUser</span> und <span>GitCoWorker</span> arbeiten in verschiedenen Branches parallel.
+                    <span>GitCoWorker</span> in gitHub: erstellt Clone im Repo über <span>Code > Clone</span>, öffnet
+                    Terminal in </span>VS Code</span>: git clone <RepoName></span> (kopiert Repo-Name)
+                        wechselt in Work-Verzeichnis im Terminal: <span>cd Verzeichnisname</span>, ist damit im Terminal
+                        im Projekt und
+                        kann damit arbeiten.
+                        <span>GitCoWorker</span> erstellt neuen Branch über <span>git checkout -b
+                            nameseinesbranches</span>. Jetzt kann
+                        <span>GitCoWorker</span> den Branch bearbeiten und mit <span>
+                            git add .
+                            git commit -m "Kommentar"> git push</span> ins Repo pushen. Bei </span>git push</span>
+                        bekommt er im Terminal eine Meldung, was genau eingegeben werden muss. Er
+                        kopiert diesen Befehl und führt Push aus.
+                        <br><br>
+                        Der Branch ist noch nicht in main integriert
+                        <span>GitSuperUser</span> kann die neuen Edits prüfen über </span>compare and pull
+                        request</span>
+                        <span>GitSuperUser</span> zeigt die Branches im Repo an über
+                        <span>New Pull Request</span>
+                </p> -->
+
+
                 <article>
-                    <p>List - mit versteckten Dateien</p>
-                    <p>Liste mit versteckten Elementen anzeigen</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/ls -a.png" alt="ls -a">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>ls -l</h1>
-                <article>
-                    <p>List - long format</p>
-                    <p>Alle Informationen zu Verzeichnissen/Dateien in der Liste anzeigen</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/ls -l.png" alt="ls -l">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>clear</h1>
-                <article>
-                    <p>Ansicht leeren</p>
-                    <p>Eingabezeile in leeres Fenster setzen, vorherige Inhalte nach oben außerhalb des sichtbaren
-                        Bereichs
-                        verschieben</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/clear.png" alt="clear">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>cd</h1>
-                <article>
-                    <p>Change Directory</p>
-                    <p>In anderes Verzeichnis wechseln</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/cd.png" alt="cd">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>mkdir</h1>
-                <article>
-                    <p>Make Directory</p>
-                    <p>Verzeichnis erstellen</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/mkdir.png" alt="mkdir">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>cd ..</h1>
-                <article>
-                    <p>Change Directory - back</p>
-                    <p>In übergeordnetes Verzeichnis wechseln</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/cd_dot.png" alt="cd ..">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>touch</h1>
-                <article>
-                    <p>Datei erstellen</p>
-                    <p>Datei über Eingabe des Dateinamens mit Dateierweiterung erstellen</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/touch.png" alt="touch">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>mv</h1>
-                <article>
-                    <p>Move</p>
-                    <p>Datei verschieben</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/mv.png" alt="mv">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>cp</h1>
-                <article>
-                    <p>Copy</p>
-                    <p>Datei kopieren über Eingabe der zu kopierenden Datei mit Leerzeichen und Name des Verzeichnisses,
-                        in
-                        das Datei kopiert werden soll</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/cp.png" alt="cp">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>cd ~</h1>
-                <article>
-                    <p>Change Directory - Root</p>
-                    <p>Zurück zum User-Verzeichnis wechseln, über Eingabe von Tilde (Alt + N)</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/cd_tilde.png" alt="cd ~">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>dig</h1>
-                <article>
-                    <p>Domain Information Grouper</p>
-                    <p>Netzwerkadministration für Abfrage des DNS (Domain Name System) anzeigen</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/dig.png" alt="dig">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>exit</h1>
-                <article>
-                    <p>Aktuelles Terminal verlassen</p>
-                    <p>Aktuelle Terminalansicht beenden</p>
-                    <div>
-                        <a href="#">So sieht's aus</a>
-                        <img src="assets/img/exit.png" alt="exit">
-                    </div>
-                </article>
-            </section>
-            <section>
-                <h1>Ausprobieren?</h1>
-                <article>
-                    <div>
+                    <!-- <div>
                         <p><a href="assets/html/game.html">Hier klicken</a></p>
-                    </div>
+                    </div> -->
 
                 </article>
             </section>
-            <section>
-                <h1>Nützliche Shortcuts</h1>
-                <h2>Ctrl + U</h2>
-                <p>Löscht die Linie vom Cursorpunkt zurück zum Anfang.
+            <section class="branching">
+                <h1>git Branching</h1>
+                <h2>git status</h2>
+                <p>Status in git anzeigen
                 </p>
-                <h2>Ctrl + A</h2>
-                <p>Bewegt den Cursor an den Anfang der Zeile.
+                <h2>git clone <span>/Verzeichnispfad/zum/Repository</span></h2>
+                <p>Repository ausschecken.
                 </p>
-                <h2>Ctrl + E</h2>
-                <p>Bewegt den Cursor an das Ende der Zeile.
+                <h2>git clone benutzername@host:/pfad/zum/repository</h2>
+                <p>wenn Remote-Repository verwendet wird
                 </p>
-                <h2>Pfeil-nach-oben, -nach-unten</h2>
-                <p>Zeigt die vorherigen Befehle an.
+                <h2>git checkout -b <span>branch_name</span></h2>
+                <p>Neuen Branch mit Namen <span>branch_name</span> erstellen
                 </p>
+                <h2>git checkout main</h2>
+                <p>Zurück zum Main wechseln</p>
+                <h2>git branch -d <span>branch_name</span></h2>
+                <p>Erstellten Branch <span>branch_name</span> wieder löschen
+                </p>
+                <h2>git push origin <span>branch</span></h2>
+                <p>Branch wird Remote-Repo hochgeladen und ist für andere verfügbar
+                </p>
+                <h2>git pull</h2>
+                <p>Commits von Remote-Branch abrufen und mergen
+                </p>
+                <h2>git log</h2>
+                <p>Alle Commits in History von aktuellem Branch anzeigen
+                </p>
+
             </section>
 
         </main>
@@ -225,7 +145,7 @@
             <nav>
                 <li>created by kc17m</li>
                 <li>
-                    <img src="assets/img/symbol_942.jpg" alt="Magpie">
+                    <img src="../img/symbol_942.jpg" alt="Magpie">
                 </li>
             </nav>
 
