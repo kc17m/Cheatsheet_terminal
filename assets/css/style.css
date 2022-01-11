@@ -48,7 +48,7 @@ header a:hover {
 /* main */
 span {
     font-weight: bold;
-    color: rgb(129, 54, 41);
+    color: rgb(136, 60, 46);
 }
 
 
@@ -169,6 +169,18 @@ main a.szenario:hover {
 main h1.szenario {
     text-decoration: underline;
 }
+
+a.szenario-link {
+    border: none;
+    font-size: 1rem;
+    display: inline;
+    padding: 10% 0;
+    width: 30%; 
+
+
+
+}
+
 
 
 /* footer */
